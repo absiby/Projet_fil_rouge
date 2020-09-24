@@ -1,10 +1,4 @@
-######################################## Demarrer cassandra #########################################
-
-# Script Shell
-# docker sudo run --name fitec-cassandra -v /home/fitec/FITEC/Cassandra:/var/lib/cassandra -p 9042:9042 -d cassandra 
-
-
-########################################Chargement des données du fichier csv dans cassandra#########################################
+######################################## Chargement des données du fichier csv dans cassandra #########################################
 
 from cassandra.cluster import Cluster
 cluster = Cluster()
