@@ -1,0 +1,60 @@
+git --version
+
+# Configuration de votre nom et de votre adresse e-mail
+
+git config --global user.name "samuel" 
+git config --global user.email "samuel.beau@gmail.com"
+
+# Pour vérifier que les valeurs passé ont été pris en considération utiliser la commande :
+
+git config --get user.name 
+git config --get user.email
+
+# Créer un répertoire pour Git en local
+mkdir Projet_fil_rouge
+cd Projet_fil_rouge
+git init
+
+# Cloner des dépôts distants
+git clone https://github.com/absiby/enedisData
+
+# Vérifier le status
+git status
+
+# Préparer le commit (staging)
+git add .
+
+# Exécuter un commit
+git commit -m "un message du commit"
+
+# Historique des commit
+git log 
+
+# Pour revenir à un état précédent du code de votre projet que vous avez validé
+git checkout <commit-hash>
+
+# Créer une nouvelle branche
+git branch Projet_fil_rouge_samuel
+
+# Pour lister les branches de votre projet
+git branch
+
+# Changer de branch
+git checkout <nom-de-la-branche>
+
+# Merger (fusionner) les branches
+git merge <nom-de-la-branche>
+
+# reposer le projet git dans son répertoire distant
+
+git pull 'https://github.com/samos999/Projet_fil_rouge' 'master'
+git push 'https://github.com/samos999/Projet_fil_rouge' 'master'
+
+
+
+
+
+
+
+
+
