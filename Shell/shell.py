@@ -9,6 +9,7 @@ os.system("echo Fin Démarrage de Cassendra")
 
 print("2 - Démarrage de HDFS")
 
-os.system("sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -v /home/fitec/FITEC/hadoop/cloudera:/src --publish-all=true -p 8888:8888 -p 90:90 -p 7180:7180 -p 50070:50070 -p 10002:10002 cloudera/quickstart /usr/bin/docker-quickstart")
+#os.system("sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -v /home/fitec/FITEC/hadoop/cloudera:/src --publish-all=true -p 8888:8888 -p 90:90 -p 7180:7180 -p 50070:50070 -p 10002:10002 cloudera/quickstart /usr/bin/docker-quickstart")
+os.system("sudo docker run --hostname=quickstart.cloudera --privileged=true -t -d -v /home/fitec/FITEC/hadoop/cloudera:/src --publish-all=true -p 8888:8888 -p 90:90 -p 7180:7180 -p 50070:50070 -p 10002:10002 cloudera/quickstart /usr/bin/docker-quickstart")
 
 os.system("echo Fin Démarrage de HDFS")
