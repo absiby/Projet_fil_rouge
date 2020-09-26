@@ -1,12 +1,13 @@
-########################################Chargement des données du fichier csv dans cassandra#########################################
+######################################## Chargement des données du fichier csv dans cassandra #########################################
 
 from cassandra.cluster import Cluster
+
 cluster = Cluster()
 session = cluster.connect()
 
 session.execute("CREATE KEYSPACE IF NOT EXISTS meteofrancedb WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor': 1}")
 session.execute('use meteofrancedb')
-session.execute('CREATE TABLE meteofrance(numer_sta INT primary key, date VARCHAR, pmer VARCHAR, tend VARCHAR, cod_tend VARCHAR)')
+session.execute('CREATE TABLE IF NOT EXISTS meteofrance(numer_sta INT primary key, date VARCHAR, pmer VARCHAR, tend VARCHAR, cod_tend VARCHAR)')
 
 prepared = session.prepare("""
         INSERT INTO meteofrance (numer_sta, date, pmer, tend, cod_tend)
