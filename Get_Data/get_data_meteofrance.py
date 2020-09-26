@@ -1,7 +1,7 @@
 #######################################Récupération du fichier de données de meteo France à partir d'un fichier csv en remote##############################
 import requests
 
-def data_meteofrance():
+
 
         csvUrl="https://donneespubliques.meteofrance.fr/donnees_libres/Txt/Synop/synop.2020091112.csv"
 

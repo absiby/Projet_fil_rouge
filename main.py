@@ -1,19 +1,17 @@
-import Shell.shell as sh
-import Get_Data.get_data_enedis as gde
-import Get_Data.get_data_meteofrance as gdm
-import Load_Data.load_cassandra as lc
-import Load_Data.load_hdfs as lh
+import os
 
 
+print("1 - Démarrage de Cassendra")
 
-def main():
-    sh.start_data_lake()
-    gde.data_enedis()
-    gdm.data_meteofrance()
-    #lc.meteofrance_in_cassandra()
-    lh.enedis_in_hdfs()
+os.system("sudo docker run --name fitec-cassandra -v /home/fitec/FITEC/Cassandra:/var/lib/cassandra -p 9042:9042 -d cassandra")
 
-if __name__ == "__main__":
-    main()
+os.system("echo Fin Démarrage de Cassendra")
+
+print("2 - Démarrage de HDFS")
+
+#os.system("sudo docker run --hostname=quickstart.cloudera --privileged=true -t -i -v /home/fitec/FITEC/hadoop/cloudera:/src --publish-all=true -p 8888:8888 -p 90:90 -p 7180:7180 -p 50070:50070 -p 10002:10002 cloudera/quickstart /usr/bin/docker-quickstart")
+os.system("sudo docker run --hostname=quickstart.cloudera --privileged=true -t -d -v /home/fitec/FITEC/hadoop/cloudera:/src --publish-all=true -p 8888:8888 -p 90:90 -p 7180:7180 -p 50070:50070 -p 10002:10002 cloudera/quickstart /usr/bin/docker-quickstart")
+
+os.system("echo Fin Démarrage de HDFS")
 
 
