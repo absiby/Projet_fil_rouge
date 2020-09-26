@@ -1,14 +1,19 @@
-import os
+import Shell.shell as sh
+import Get_Data.get_data_enedis as gde
+import Get_Data.get_data_meteofrance as gdm
+import Load_Data.load_cassandra as lc
+import Load_Data.load_hdfs as lh
 
-# Démarrer les bases de données
-os.system("python3 Shell/shell.py")
 
-# Télécharger les données sur le web
-os.system("python3 Get_Data/get_data_enedis.py")
-os.system("python3 Get_Data/get_data_meteofrance.py")
 
-# Charger les données dans HDFS et Cassandra
-os.system("python3 Load_Data/load_cassandra.py")
-os.system("python3 Load_Data/load_hdfs.py")
+def main():
+    sh.start_data_lake()
+    gde.data_enedis()
+    gdm.data_meteofrance()
+    #lc.meteofrance_in_cassandra()
+    lh.enedis_in_hdfs()
+
+if __name__ == "__main__":
+    main()
 
 
