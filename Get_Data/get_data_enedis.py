@@ -5,7 +5,7 @@ import requests
 def get_enedis():
 
         # France entiere
-        apiUrl="https://data.enedis.fr/explore/dataset/conso-inf36/download/?format=json&disjunctive.profil=true&disjunctive.plage_de_puissance_souscrite=true&refine.horodate=2019&timezone=Europe/Berlin&lang=fr"
+        #apiUrl="https://data.enedis.fr/explore/dataset/conso-inf36/download/?format=json&disjunctive.profil=true&disjunctive.plage_de_puissance_souscrite=true&refine.horodate=2019&timezone=Europe/Berlin&lang=fr"
 
         # par régions
         apiUrl="https://data.enedis.fr/explore/dataset/conso-inf36-region/download/?format=csv&refine.horodate=2019&timezone=Europe/Berlin&lang=fr&use_labels_for_header=true&csv_separator=%3B"
