@@ -16,7 +16,12 @@ def load_meteofrance():
             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
             """)
 
-    with open("/home/fitec/projet_fil_rouge/source_des_données/data/donnees-synop-essentielles-omm.csv", "r") as rows:
+    # load 10 lignes
+    lien_fichier = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance_l10.csv"
+    # load total
+    #lien_fichier = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance.csv"
+
+    with open(lien_fichier, "r") as rows:
         i = 0    
         for row in rows:
             if i == 1:
