@@ -1,5 +1,8 @@
 import os
 
+# créer les répertoires nécessaire 
+os.system("mkdir -p /home/fitec/projet_fil_rouge/source_des_données/data")
+
 
 
 print("1 - Démarrage de Cassendra")

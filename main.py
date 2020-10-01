@@ -12,7 +12,7 @@ def main():
     ge.get_enedis()
 
     print("4 - Load Data")
-    lc.load_meteofrance()
+    #lc.load_meteofrance()
     lh.load_enedis()
 
 if __name__ == "__main__":
