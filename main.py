@@ -9,11 +9,11 @@ import Load_Data.load_hdfs as lh
 def main():
     print("3 - Get Data")
     gm.get_meteofrance()
-    ge.get_enedis()
+    #ge.get_enedis()
 
     print("4 - Load Data")
     #lc.load_meteofrance()
-    lh.load_enedis()
+    #lh.load_enedis()
 
 if __name__ == "__main__":
     main()

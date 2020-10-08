@@ -9,7 +9,7 @@ def load_meteofrance():
 
     session.execute("CREATE KEYSPACE IF NOT EXISTS meteofrancedb WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor': 1}")
     session.execute('use meteofrancedb')
-    session.execute('CREATE TABLE IF NOT EXISTS meteofrance(numer_sta INT primary key,date VARCHAR,pmer VARCHAR,tend VARCHAR,cod_tend VARCHAR,dd VARCHAR,ff VARCHAR,t VARCHAR,td VARCHAR,u VARCHAR,vv VARCHAR,ww VARCHAR,w1 VARCHAR,w2 VARCHAR,n VARCHAR,nbas VARCHAR,hbas VARCHAR,cl VARCHAR,cm VARCHAR,ch VARCHAR,pres VARCHAR,niv_bar VARCHAR,geop VARCHAR,tend24 VARCHAR,tnN VARCHAR,txN VARCHAR,tminsol VARCHAR,sw VARCHAR,tw VARCHAR,raf10 VARCHAR,rafper VARCHAR,per VARCHAR,etat_sol VARCHAR,ht_neige VARCHAR,ssfrai VARCHAR,perssfrai VARCHAR,rrN VARCHAR,phenspeN VARCHAR,nnuageN VARCHAR,ctypeN VARCHAR,hnuageN VARCHAR)')
+    session.execute('CREATE TABLE IF NOT EXISTS meteofrance(numer_sta INT ,date VARCHAR,pmer VARCHAR,tend VARCHAR,cod_tend VARCHAR,dd VARCHAR,ff VARCHAR,t VARCHAR,td VARCHAR,u VARCHAR,vv VARCHAR,ww VARCHAR,w1 VARCHAR,w2 VARCHAR,n VARCHAR,nbas VARCHAR,hbas VARCHAR,cl VARCHAR,cm VARCHAR,ch VARCHAR,pres VARCHAR,niv_bar VARCHAR,geop VARCHAR,tend24 VARCHAR,tnN VARCHAR,txN VARCHAR,tminsol VARCHAR,sw VARCHAR,tw VARCHAR,raf10 VARCHAR,rafper VARCHAR,per VARCHAR,etat_sol VARCHAR,ht_neige VARCHAR,ssfrai VARCHAR,perssfrai VARCHAR,rrN VARCHAR,phenspeN VARCHAR,nnuageN VARCHAR,ctypeN VARCHAR,hnuageN VARCHAR, primary key(numer_sta, date) )')
 
     prepared = session.prepare("""
             INSERT INTO meteofrance (numer_sta,date,pmer,tend,cod_tend,dd,ff,t,td,u,vv,ww,w1,w2,n,nbas,hbas,cl,cm,ch,pres,niv_bar,geop,tend24,tnN,txN,tminsol,sw,tw,raf10,rafper,per,etat_sol,ht_neige,ssfrai,perssfrai,rrN,phenspeN,nnuageN,ctypeN,hnuageN)
@@ -17,9 +17,9 @@ def load_meteofrance():
             """)
 
     # load 10 lignes
-    lien_fichier = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance_l10.csv"
+    #lien_fichier = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance_l10.csv"
     # load total
-    #lien_fichier = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance.csv"
+    lien_fichier = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance.csv"
 
     with open(lien_fichier, "r") as rows:
         i = 0    
