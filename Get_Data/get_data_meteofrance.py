@@ -16,8 +16,8 @@ def get_meteofrance():
         csvResponse=requests.get(csvUrl)
 
         #Enregistrement des données dans un fichier au format csv
-        csvFilename = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance_l10.csv"
-        #csvFilename = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance.csv"
+        #csvFilename = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance_l10.csv"
+        csvFilename = "/home/fitec/projet_fil_rouge/source_des_données/data/donnees-meteofrance.csv"
 
         #écriture en binaire
         with open(csvFilename,"wb") as file:
