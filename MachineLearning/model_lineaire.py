@@ -89,12 +89,13 @@ model = pipeline.fit(training)
 
 prediction = model.transform(test)
 
+print("prediction: ##################################################################################")
 prediction.show()
 
 print("Resultat: ##################################################################################")
 
-#summary = model.stages.summary
-print(model.stages[-1].coefficients)
+summary = model.stages.summary
+#print(model.stages[-1].coefficients)
 
 
 
@@ -125,6 +126,9 @@ print("r2: %.3f" %r2)
 
 
 
+les_resultats = {"RMSE": rmse, "MSE": mse, "MAE": mae, "r2": r2}
+
+les_resultats.toPandas().to_csv("/home/fitec/projet_fil_rouge/ML_resultats/resultats.csv")
 
  
 '''/home/fitec/spark/spark-3.0.0-bin-hadoop2.7/bin/spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.0 MachineLearning/model_lineaire.py '''
