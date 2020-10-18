@@ -15,7 +15,11 @@ def main():
     print("4 - Load Data")
     #lc.load_meteofrance()
 
-    print("5 - Machine learning")
+    print("5 - Talend")
+
+
+
+    print("6 - Machine learning")
     os.system("/home/fitec/spark/spark-3.0.0-bin-hadoop2.7/bin/spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.0 MachineLearning/model_lineaire.py")
 
 
