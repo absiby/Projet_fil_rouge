@@ -10,10 +10,10 @@ import Load_Data.load_mongo as lm
 def main():
     print("3 - Get Data")
     #gm.get_meteofrance()
-    #ge.get_enedis()
+    ge.get_enedis()
 
     print("4 - Load Data")
-    lc.load_meteofrance()
+    #lc.load_meteofrance()
     #lh.load_enedis()
     #lm.load_tables_technique_mongo()
 
