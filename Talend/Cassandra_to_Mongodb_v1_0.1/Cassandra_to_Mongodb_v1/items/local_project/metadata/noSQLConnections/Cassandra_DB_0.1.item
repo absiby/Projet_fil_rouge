@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_5yz6gP8HEeqb-pd_PC2-Dw" name="Cassandra_DB" label="Cassandra_DB" dataPackage="_8HPWEP8ZEeqb-pd_PC2-Dw" dbType="CASSANDRA">
+    <attributes xmi:id="_nlcV4P8tEeqb-pd_PC2-Dw" key="DB_VERSION" value="CASSANDRA_3_0"/>
+    <attributes xmi:id="_nlcV4f8tEeqb-pd_PC2-Dw" key="API_TYPE" value="DATASTAX"/>
+    <attributes xmi:id="_nlcV4v8tEeqb-pd_PC2-Dw" key="HOST" value="localhost"/>
+    <attributes xmi:id="_nlcV4_8tEeqb-pd_PC2-Dw" key="PORT" value="9042"/>
+    <attributes xmi:id="_nlcV5P8tEeqb-pd_PC2-Dw" key="DATABASE" value="meteofrancedb"/>
+    <attributes xmi:id="_nlcV5f8tEeqb-pd_PC2-Dw" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_nlcV5v8tEeqb-pd_PC2-Dw" key="USERNAME" value=""/>
+    <attributes xmi:id="_nlcV5_8tEeqb-pd_PC2-Dw" key="PASSWORD" value=""/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_8HPWEP8ZEeqb-pd_PC2-Dw" name="meteofrancedb" dataManager="_5yz6gP8HEeqb-pd_PC2-Dw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_8HPWEf8ZEeqb-pd_PC2-Dw" name="meteofrance" id="_5Lv1UP8ZEeqb-pd_PC2-Dw" label="meteofrance">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKIA1YEeutH8s-79fDaQ" name="numer_sta" label="numer_sta" sourceType="int" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKIQ1YEeutH8s-79fDaQ" name="date" label="date" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKIg1YEeutH8s-79fDaQ" name="ch" label="ch" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKIw1YEeutH8s-79fDaQ" name="cl" label="cl" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKJA1YEeutH8s-79fDaQ" name="cm" label="cm" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKJQ1YEeutH8s-79fDaQ" name="cod_tend" label="cod_tend" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKJg1YEeutH8s-79fDaQ" name="code_dep" label="code_dep" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKJw1YEeutH8s-79fDaQ" name="code_reg" label="code_reg" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKKA1YEeutH8s-79fDaQ" name="ctypen" label="ctypen" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKKQ1YEeutH8s-79fDaQ" name="dd" label="dd" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKKg1YEeutH8s-79fDaQ" name="etat_sol" label="etat_sol" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKKw1YEeutH8s-79fDaQ" name="ff" label="ff" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKLA1YEeutH8s-79fDaQ" name="geop" label="geop" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKLQ1YEeutH8s-79fDaQ" name="hbas" label="hbas" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKLg1YEeutH8s-79fDaQ" name="hnuagen" label="hnuagen" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKLw1YEeutH8s-79fDaQ" name="ht_neige" label="ht_neige" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKMA1YEeutH8s-79fDaQ" name="n" label="n" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKMQ1YEeutH8s-79fDaQ" name="nbas" label="nbas" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKMg1YEeutH8s-79fDaQ" name="niv_bar" label="niv_bar" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKMw1YEeutH8s-79fDaQ" name="nnuagen" label="nnuagen" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKNA1YEeutH8s-79fDaQ" name="nom_dept" label="nom_dept" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKNQ1YEeutH8s-79fDaQ" name="nom_reg" label="nom_reg" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKNg1YEeutH8s-79fDaQ" name="per" label="per" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKNw1YEeutH8s-79fDaQ" name="perssfrai" label="perssfrai" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKOA1YEeutH8s-79fDaQ" name="phenspen" label="phenspen" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKOQ1YEeutH8s-79fDaQ" name="pmer" label="pmer" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKOg1YEeutH8s-79fDaQ" name="pres" label="pres" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKOw1YEeutH8s-79fDaQ" name="raf10" label="raf10" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKPA1YEeutH8s-79fDaQ" name="rafper" label="rafper" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKPQ1YEeutH8s-79fDaQ" name="rrn" label="rrn" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKPg1YEeutH8s-79fDaQ" name="ssfrai" label="ssfrai" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKPw1YEeutH8s-79fDaQ" name="sw" label="sw" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKQA1YEeutH8s-79fDaQ" name="t" label="t" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKQQ1YEeutH8s-79fDaQ" name="td" label="td" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKQg1YEeutH8s-79fDaQ" name="tend" label="tend" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKQw1YEeutH8s-79fDaQ" name="tend24" label="tend24" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKRA1YEeutH8s-79fDaQ" name="tminsol" label="tminsol" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKRQ1YEeutH8s-79fDaQ" name="tnn" label="tnn" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKRg1YEeutH8s-79fDaQ" name="tw" label="tw" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKRw1YEeutH8s-79fDaQ" name="txn" label="txn" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKSA1YEeutH8s-79fDaQ" name="u" label="u" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKSQ1YEeutH8s-79fDaQ" name="vv" label="vv" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKSg1YEeutH8s-79fDaQ" name="w1" label="w1" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKSw1YEeutH8s-79fDaQ" name="w2" label="w2" sourceType="text" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DAzKTA1YEeutH8s-79fDaQ" name="ww" label="ww" sourceType="text" talendType="id_String"/>
+      <additionalProperties xmi:id="_8HP9If8ZEeqb-pd_PC2-Dw" key="COLUMN_FAMILY_TYPE" value="STANDARD"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

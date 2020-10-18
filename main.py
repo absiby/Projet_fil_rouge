@@ -16,8 +16,8 @@ def main():
     #lc.load_meteofrance()
 
     print("5 - Talend")
-    os.system("chmod 777 /home/fitec/FITEC/Projet_fil_rouge/Talend/Job_merge_enedis_v2_0.1/Job_merge_enedis_v2/*")
-    os.system("/home/fitec/FITEC/Projet_fil_rouge/Talend/Job_merge_enedis_v2_0.1/Job_merge_enedis_v2/Job_merge_enedis_v2_run.sh")
+    os.system("chmod -R 777 /home/fitec/FITEC/Projet_fil_rouge/Talend/*")
+    os.system("/home/fitec/FITEC/Projet_fil_rouge/Talend/Cassandra_to_Mongodb_v1_0.1/Cassandra_to_Mongodb_v1/Cassandra_to_Mongodb_v1_run.sh")
 
 
     print("6 - Machine learning")

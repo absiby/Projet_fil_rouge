@@ -1,0 +1,304 @@
+[ {
+  "baseItem" : {
+    "id" : "_15r3sPs0Eeqlj7ZOIkmJpw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_vZrHUPs0Eeqlj7ZOIkmJpw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vZrHUPs0Eeqlj7ZOIkmJpw - Ex_1_MD",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_2gGjoA5dEeupp6AbrQJAHg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_bcRiMA5jEeupp6AbrQJAHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_CJt6IAgTEeuy397pmktf9g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_RLHlEP8FEeqb-pd_PC2-Dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ ]
+}, {
+  "baseItem" : {
+    "id" : "_Ro0Q4AZcEeuO9sAMvL90vg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_SLFusA43Eeupp6AbrQJAHg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SxCk8A32EeutH8s-79fDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_XWN1wA31EeutH8s-79fDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SxCk8A32EeutH8s-79fDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_at63kAQUEeu0lKJpCueW8Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_kZxfkAQZEeu0lKJpCueW8Q - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bCpY4AmPEeuqHsn5fJ2iyA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bZhxQA2UEeutH8s-79fDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gMTjwA2UEeutH8s-79fDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_q0K2EA5fEeupp6AbrQJAHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_heUvwASVEeu4k9Q2xf5n0A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw - meteofrance",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_lBGYsBEnEeuf2eti5_tnLQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SxCk8A32EeutH8s-79fDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mfglYAjtEeuHSLb8Xk4tSA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_K_6z0AP3EeuKNcL0p2u_xA - enedis_4_MD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_nImCwAmqEeuEY4DhiQEIWA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw - meteofrance",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pLHFMA5tEeupp6AbrQJAHg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SxCk8A32EeutH8s-79fDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sX7zgAQaEeu0lKJpCueW8Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_kZxfkAQZEeu0lKJpCueW8Q - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xaAKMA1lEeutH8s-79fDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SxCk8A32EeutH8s-79fDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_bcRiMA5jEeupp6AbrQJAHg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_z2DE0BFVEeuf2eti5_tnLQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_SxCk8A32EeutH8s-79fDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw - meteofrance",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_m06dkAkBEeuHSLb8Xk4tSA - enedis_region",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zXsmEASKEeuz8_u3mngTyg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_5yzTcP8HEeqb-pd_PC2-Dw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+} ]
