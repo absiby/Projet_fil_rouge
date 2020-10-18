@@ -4,7 +4,6 @@ import os
 os.system("mkdir -p /home/fitec/projet_fil_rouge/source_des_données/data")
 os.system("chmod 777 /home/fitec/projet_fil_rouge/source_des_données/data")
 
-# créer les répertoires nécessaire 
 os.system("mkdir -p /home/fitec/projet_fil_rouge/ML_resultats")
 os.system("chmod 777 /home/fitec/projet_fil_rouge/ML_resultats")
 
