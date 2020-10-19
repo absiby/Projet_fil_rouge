@@ -96,7 +96,6 @@ prediction.show()
 
 print("Resultat: ##################################################################################")
 
-#summary = model.stages.summary
 modelsummary(model.stages[-1],numericCols)
 
 
