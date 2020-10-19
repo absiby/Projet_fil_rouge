@@ -127,18 +127,11 @@ r2 = eval.evaluate(prediction, {eval.metricName: "r2"})
 print("r2: %.3f" %r2)
 
 
-
-les_resultats = {"RMSE": rmse, "MSE": mse, "MAE": mae, "r2": r2}
-
+print("save predictions : ##################################################################################")
 
 
-les_resultats.toPandas().to_csv("resultats.txt")
+prediction.toPandas().to_csv("/home/fitec/projet_fil_rouge/ML_resultats/table_prediction.csv")
 
-#les_resultats.toPandas("/home/fitec/projet_fil_rouge/ML_resultats/resultats")
-#table_res.toPandas().to_csv("/home/fitec/projet_fil_rouge/ML_resultats/table_res.csv")
-
-#les_resultats.toPandas("resultats")
-#table_res.toPandas().to_csv("table_res.csv")
 
  
 '''/home/fitec/spark/spark-3.0.0-bin-hadoop2.7/bin/spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.0 MachineLearning/model_lineaire.py '''
