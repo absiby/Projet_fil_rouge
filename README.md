@@ -8,7 +8,7 @@ spark-submit devra être lancé à partir du répertoire suivant :
 "/home/fitec/spark/spark-3.0.0-bin-hadoop2.7/bin/spark-submit"
 
 
-Liste des liens à utiliser
+Liste des liens  utilisés
 
 # -----------------------------------------------------------
 #          enedis
